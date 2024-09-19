@@ -1,0 +1,31 @@
+---@class HRExtraCommandsConfig
+---@field language string
+---@field enableWhitelistedIdentifiers boolean
+---@field whitelistedIdentifiers string[]?
+---@field dvDistance number
+
+---@class HRExtraCommandsTranslation
+---@field heal_help string
+---@field heal_arg1_help string
+---@field giveweapon_help string
+---@field giveweapon_arg1_help string
+---@field giveweapon_arg2_help string
+---@field giveweapon_arg3_help string
+---@field tpm_help string
+---@field car_help string
+---@field car_arg1_help string
+---@field dv_help string
+---@field revive_help string
+---@field revive_arg1_help string
+---@field invalid_playerId string
+---@field access_denied string
+---@field heal_successful string
+---@field giveweapon_successful string
+---@field tpm_successful string
+---@field tpm_failed string
+---@field car_successful string
+---@field car_failed_invalidSpawnCode string
+---@field dv_successful string
+---@field revive_successful string
+---@field revive_failed string
+---@field dv_failed string
